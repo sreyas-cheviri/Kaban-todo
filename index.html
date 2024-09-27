@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <h1 style="border-bottom: solid rgb(45, 44, 44) .5px; padding-bottom: 20px; text-transform: uppercase;">Taskify</h1>
+    <h2 style="color: white; font-family: sans-serif; font-size: medium; text-align: center;">Kanban • 
+        Visualize the status of your project and limit work in progress</h2>
+    <div class="hold">
+        <div class="addb">
+            <div class="categories" id="todocat">
+                <div class="headings">
+                    <h4>Backlog 💢</h4>
+                    <p style="color: rgb(141, 141, 141); font-family: sans-serif;margin-bottom: 25px;font-size: small;">
+                        This item hasn't been started</p>
+                </div>
+                <div class="taskss">
+                    <div class="task" draggable="true">sample task <button onclick="this.parentElement.remove(); ">delete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="additem">
+                <input type="text" id="new-task" placeholder="New Task" ></input>
+                <span class="material-symbols-outlined">
+                    add
+                </span>
+                <button style="background: none;
+            border: none;
+            padding: 0;
+            margin: 0;
+            font-size: smaller;
+            font: inherit;
+            color: inherit;
+            cursor: pointer;
+            outline: none;" onclick="addTask()">Add item</button>
+            </div>
+        </div>
+        <div class="categories" id="todocat">
+            <div class="headings">
+                <h4>Ready 🚀</h4>
+                <p style="color: rgb(141, 141, 141); font-family: sans-serif;margin-bottom: 25px;font-size: small;">This
+                    is ready to be picked up</p>
+            </div>
+        </div>
+        <div class="categories" id="todocat">
+            <div class="headings">
+                <h4>In review ☝</h4>
+                <p style="color: rgb(141, 141, 141); font-family: sans-serif;margin-bottom: 25px;font-size: small;">This
+                    item is in review</p>
+            </div>
+        </div>
+        <div class="categories" id="todocat">
+            <div class="headings">
+                <h4>Done ✅</h4>
+                <p style="color: rgb(141, 141, 141); font-family: sans-serif;margin-bottom: 25px;font-size: small;">This
+                    has been completed</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
