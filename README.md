@@ -10,7 +10,7 @@
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/taskify-kanban.git
+   git clone https://github.com/sreyas-cheviri/Kaban-todo.git
    ```
 2. Open `index.html` in your browser.
 
