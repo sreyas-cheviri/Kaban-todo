@@ -1,4 +1,4 @@
-# Taskify - Simple Kanban Board
+# Taskify - Simple Kanban Board - 100xDEV
 
 **Taskify** is a basic Kanban board for managing tasks. You can add, drag, and delete tasks across different categories like "Backlog", "Ready", "In Review", and "Done".
 
